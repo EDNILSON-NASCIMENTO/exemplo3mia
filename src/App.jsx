@@ -1,14 +1,13 @@
 
-import './App.css'
+import NavProjeto from './components/NavProjeto';
 
 function App() {
- 
-
   return (
-    <>
-      <h1>PROJETO EXEMPLO DEPLOY GITHUB PAGES REACT X VITE</h1>
-    </>
+    <div>
+      <NavProjeto />
+    </div>
   )
+  
 }
 
 export default App
